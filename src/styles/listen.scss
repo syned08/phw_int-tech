@@ -1,0 +1,72 @@
+#listen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/listen-bg.jpg");
+  background-size: cover;
+  position: relative;
+
+  .listen-btn {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(75, 75, 75, 0.7);
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.15);
+      background-color: rgba(46, 46, 46, 0.9);
+    }
+
+    & h4 {
+      font-size: 50px;
+      color: rgb(161, 204, 218);
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  .modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(75, 75, 75, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal__links {
+      text-align: start;
+      border: 3px solid rgb(161, 204, 218);
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px 100px;
+      background-color: rgba(49, 49, 49, 0.85);
+
+      & a {
+        margin-bottom: 15px;
+        text-decoration: none;
+        letter-spacing: 0.2rem;
+        transition: all 0.3s ease;
+        font-size: 25px;
+
+        &:hover {
+          transform: scale(1.25);
+          color: rgb(161, 204, 218);
+        }
+      } 
+    }  
+  }
+  .modal-hidden {
+    display: none;
+  }  
+}

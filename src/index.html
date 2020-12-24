@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/78d8b7c6c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>The NBHD.</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="cursor"></div>
+        <nav class="menu">
+            <div class="container menu_container">
+                <ul class="menu__items">
+                    <li><a href="#header"> <img src="img/logo.png" alt="The Neigbourhood logo" class="menu__items__home"></a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#listen">LISTEN</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                </ul>
+                <ul class="menu__links">
+                    <li><a href="https://www.facebook.com/TheNeighbourhood/" class="fab fa-facebook" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/thenbhd/" class="fab fa-instagram"  target="_blank"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCDAXusYwRJpiSP2CHnXnVnw" class="fab fa-youtube"  target="_blank"></a></li>
+                    <li><a href="https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh" class="fab fa-spotify"  target="_blank"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text">
+            <p class="text__content_one text__content">The</p>
+            <p class="text__content_two text__content">Neigbourhood</p>
+        </div>
+        <div class="content">
+            <div class="content__play">
+                <i href="#" class="fas fa-play" id="btn-play"></i>
+            </div>
+            <audio id="player">
+                <source src='./img/sweat_weather.mp3' type='audio/mpeg'/>
+            </audio>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="about__heading">Members.</h2>
+            <div class="about__members">
+                <div class="about__members__card">
+                    <img src="https://lastfm.freetls.fastly.net/i/u/770x0/f3eb2b914f232cf2ba64a23243e7967c.webp#f3eb2b914f232cf2ba64a23243e7967c" alt="Jesse Rutherford" class="about__members__image">
+                    <p class="name">Jesse Rutherford</p>
+                    <p class="role">Lead Vocals</p>
+                    <div class="links links-hidden">
+                        <a href="https://www.instagram.com/jesserutherfordthenbhd/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%B5%D1%80%D1%84%D0%BE%D1%80%D0%B4,_%D0%94%D0%B6%D0%B5%D1%81%D1%81%D0%B8_%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81" class="fab fa-wikipedia-w" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="about__members__card">
+                    <img src="https://vignette.wikia.nocookie.net/the-neighbourhood/images/4/4c/ZAbelsInsta1.PNG/revision/latest?cb=20171103013433" alt="Zachary Abels" class="about__members__image">
+                    <p class="name">Zachary Abels</p>
+                    <p class="role">Guitarist</p>
+                    <div class="links links-hidden">
+                        <a href="https://www.instagram.com/z_flexing/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://the-neighbourhood.fandom.com/wiki/Zach_Abels" class="fab fa-wikipedia-w" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="about__members__card">
+                    <img src="https://ashtonheald.online/discography2/images/jeremy-freedman.jpg" alt="Jeremiah Freedman" class="about__members__image">
+                    <p class="name">Jeremiah Freedman</p>
+                    <p class="role">Guitarist</p>
+                    <div class="links links-hidden">
+                        <a href="https://www.instagram.com/sevenoutoften/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://the-neighbourhood.fandom.com/wiki/Jeremy_Freedman" class="fab fa-wikipedia-w" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="about__members__card">
+                    <img src="https://vignette.wikia.nocookie.net/the-neighbourhood/images/1/14/Tumblr_oy5ltn71Gp1r1uv0ao1_500.jpg/revision/latest?cb=20180114032434" alt="Michael Margott" class="about__members__image">
+                    <p class="name">Michael Margott</p>
+                    <p class="role">Bassist</p>
+                    <div class="links links-hidden">
+                        <a href="https://www.instagram.com/mikeymargott/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://the-neighbourhood.fandom.com/wiki/Mikey_Margott" class="fab fa-wikipedia-w" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="about__members__card">
+                    <img src="https://vignette.wikia.nocookie.net/the-neighbourhood/images/1/1c/BFriedInsta1.PNG/revision/latest/top-crop/width/450/height/450?cb=20171104012814" alt="Brandon Fried" class="about__members__image">
+                    <p class="name">Brandon Fried</p>
+                    <p class="role">Drummer</p>
+                    <div class="links links-hidden">
+                        <a href="https://www.instagram.com/brandonfried_/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://the-neighbourhood.fandom.com/wiki/Brandon_Fried" class="fab fa-wikipedia-w" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="listen">
+        <div class="listen__wraper">
+            <div class="listen-btn">
+                <h4>LISTEN TO</h4>
+            </div>
+        </div>
+        <div class="modal-wrapper modal-hidden" id="modal-wrapper">
+            <div class="modal">
+                <div class="modal__links">
+                    <a href="https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh" target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+                    <a href="https://www.youtube.com/channel/UCDAXusYwRJpiSP2CHnXnVnw" target="_blank"><i class="fab fa-youtube"></i> YouTube Music</a>
+                    <a href="https://soundcloud.com/theneighbourhood" target="_blank"><i class="fab fa-soundcloud" ></i> SoundCloud</a>
+                    <a href="https://music.apple.com/ru/artist/the-neighbourhood/219350813" target="_blank"><i class="fab fa-apple"></i> Apple Music</a>
+                    <a href="https://www.amazon.com/The-Neighbourhood/e/B0090M1PR6" target="_blank"><i class="fab fa-amazon"></i> Amazon Music</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <h2 class="news__heading">NEWS.</h2>
+        <i class="fas fa-arrow-left arrow-left arrow"></i>
+        <i class="fas fa-arrow-right arrow-right arrow"></i>
+        <div class="carousel-wrapper">
+            <article class="carousel">
+                <div class="carousel-element hot" style="left: 0;">
+                    <div class="hot-element">HOT!</div>
+                    <div class="carousel-element__text">
+                        Stargazing out now! thank you @LanaDelRey &#129346;&#10024;
+                        <a href="https://t.co/AWmL4ClM2Q?amp=1">https://t.co/AWmL4ClM2Q?amp=1</a>
+                    </div>
+                    <div><img src="https://www.coupdemainmagazine.com/sites/default/files/styles/hero_image/public/article/17236/hero-17236-730179263.jpg?itok=N4nzT1T0" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element" style="left: 0;">
+                    <div class="hot-element">HOT!</div>
+                    <div class="carousel-element__text">
+                        Concert The Neighbourhood in Kyiv will start 13 November 2021 , 19:00, Kiev Palace of Sports.
+                        <a href="https://kiev.karabas.com/en/the-neighbourhood">Order tickets!</a>
+                    </div>
+                    <div><img src="https://i.ytimg.com/vi/Dl5LmV-yGho/maxresdefault.jpg" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element" style="left: 0;">
+                    <div class="carousel-element__text">
+                        “Sweater Weather” by @thenbhd enters Top 50 on US Spotify at #50 over 8 years after its release.&#9729;
+                    </div>
+                    <div><img src="https://pbs.twimg.com/media/EnMqNxMXMAA1eY_?format=jpg&name=small" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element" style="left: 0;">
+                    <div class="carousel-element__text">
+                        sometimes you need to burn the house down. &#128293; just added a couple new items to the merch store.
+                        <a href=" http://whothefuckischipchrome.com">Order!</a>
+                    </div>
+                    <div><img src="https://pbs.twimg.com/media/Ej5xjgZXYAAjiSW?format=jpg&name=small" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element">
+                    <div class="carousel-element__text">
+                        &#10024;Chip Chrome & The Mono-Tones streaming everywhere now! Искры&#10024;
+                    </div>
+                    <div><img src="https://pbs.twimg.com/media/EjrWFIuVcAAugiH?format=jpg&name=small" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element">
+                    <div class="carousel-element__text">
+                        &#128680;“Lost In Translation” is on @AppleMusic
+                    </div>
+                    <div><img src="https://pbs.twimg.com/media/Eis9bZ4U4AAmWiS?format=jpg&name=small" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element">
+                    <div class="carousel-element__text">
+                        album out Friday! &#128191; live on twitch right now.&#128225;
+                    </div>
+                    <div><img src="https://pbs.twimg.com/media/EieCv1_WoAAMgIE?format=jpg&name=small" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+                <div class="carousel-element">
+                    <div class="carousel-element__text">
+                        Come through on
+                    </div>
+                    <a href="https://t.co/2JFwODiLhh?amp=1">Twitch!</a>
+                    <div><img src="https://pbs.twimg.com/media/EgiuuBhX0AEg1qk?format=jpg&name=900x900" alt="Stargazing" class="carousel-element__photo"></div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <i class="fas fa-arrow-left gallery-left gallery-arrow"></i>
+        <i class="fas fa-arrow-right gallery-right gallery-arrow"></i>
+        <div class="gallery_images">
+            <div class="gallery__element"><img src="https://wallpapercave.com/wp/wp1979074.jpg" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://www.teahub.io/photos/full/283-2836302_the-neighbourhood-wallpaper-neighborhood-band.jpg" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://wallpapercave.com/wp/wp1978945.jpg" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://yt3.ggpht.com/ytc/AAUvwngNyErOIZtQTF7JTHMAIBM1UST94tpjHskOZ5HXBQ=s900-c-k-c0x00ffffff-no-rj" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://bnmusic.com.ua/wp-content/uploads/2019/07/The-Neighbourhood-1.jpg" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://img.tyt.by/n/afisha/00/8/neighbourhood-2015.jpg" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://i.ytimg.com/vi/8giBPUpzKRw/maxresdefault.jpg" alt="the Neighbourhood" style="left: 0px;"></div>
+            <div class="gallery__element"><img src="https://i.pinimg.com/originals/af/02/c3/af02c304b10684d5b15da594de3249a5.png" alt="the Neighbourhood" style="left: 0px;"></div>
+        </div>  
+    </section>
+
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="rights">
+                <p><i class="fas fa-copyright"></i>/2020/All rights reserved.</p>
+            </div>
+            <div class="cta">
+                <p class="cta_heading">Want the latest news?</p>
+                <form action="#">
+                    <input type="email" placeholder="Your e-mail:" class="cta__email">
+                    <input type="submit" value="Send" class="cta__submit">
+                </form>
+            </div>
+            <div class="author">
+                <p>Created by DH. <span class="victory">✌</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#header" class="scroll-up-round">
+        <i class="fas fa-chevron-up scroll-up"></i>
+    </a>
+
+    <script src="./js/script.min.js"></script>
+</body>
+</html>

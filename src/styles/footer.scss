@@ -1,0 +1,49 @@
+#footer {
+    height: 15vh;
+    background-color: #141414;
+    padding: 20px;
+    letter-spacing: 0.1rem;
+
+    p, i {
+        color:  rgba(183, 224, 224, 1); 
+    }
+
+    .footer__container {
+        width: 1260px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .cta {
+            text-align: center;
+
+            &_heading {
+                margin-bottom: 20px;
+            }
+
+            &__submit, &__email {
+                padding: 5px 20px;
+                border-radius: 10px;
+                outline: none;
+                border: none;
+                color: black;
+            }
+
+            &__submit {
+                cursor: pointer;
+                margin-left: 10px;
+                &:hover {
+                    background-color: rgb(127, 196, 191);
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+    
+    .victory {
+        text-align: center;
+        font-size: 30px;
+    }
+}
